@@ -64,7 +64,11 @@ For further details on the implementation and optimization click [here](implemen
 
 ## Results
 
+Instead of using only the gradient of the current step to guide the search, momentum accumulates the gradient of the past steps to determine the direction to go. While momentum accelerates our search in direction of minima, RMSProp impedes our search in direction of oscillations.
 
+Adam or Adaptive Moment Optimization algorithms combines the heuristics of both Momentum and RMSProp.
+
+While both the models were able to detect objects from images of electronic devices that comprise of E-waste, in terms of efficiency the models compared ![here](results)
 
 ## Resources
 - https://recyclecoach.com/residents/blog/an-intro-to-e-waste-why-its-a-problem/#:~:text=E%2Dwaste%20contains%20a%20laundry,soil%2C%20water%2C%20and%20air
@@ -77,3 +81,4 @@ For further details on the implementation and optimization click [here](implemen
 - https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_on_mobile_tf2.md
 - https://towardsdatascience.com/stochastic-gradient-descent-with-momentum-a84097641a5d#:~:text=Momentum%20%5B1%5D%20or%20SGD%20with,models%20are%20trained%20using%20it.
 - https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/#:~:text=Adam%20is%20a%20replacement%20optimization,sparse%20gradients%20on%20noisy%20problems.
+- https://blog.paperspace.com/intro-to-optimization-momentum-rmsprop-adam/
