@@ -68,4 +68,4 @@ To obtain the final dataset for training in TFRecord format the platform used is
     ![Step-7](dataset-preparation/d-7.JPG)
 
 
-### Now the dataset is ready for implementation which is discusses [here](../implementation/README.md)
+### Now the dataset is ready for implementation which is discusses [here](../implementation)
