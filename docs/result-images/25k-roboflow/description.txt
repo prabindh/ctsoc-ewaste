@@ -1,5 +1,0 @@
-Number of steps: 25000
-Evaluation after 500 steps
-Model: efficientdet_d0
-Optimizer: momentum_optimizer
-Dataset size: 909 images (around 2k after augmentation- flip, rotation, shear, brightness, noise done on roboflow.com)
