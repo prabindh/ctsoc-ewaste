@@ -104,4 +104,4 @@ Tensorflow provides a collection of detection models pre-trained on the COCO 201
 
 ## Results
 
-The results for the implementation can be seen [here](results) along with output images of the detections done by the models.
+The results for the implementation can be seen [here](results\README.md) along with output images of the detections done by the models.
