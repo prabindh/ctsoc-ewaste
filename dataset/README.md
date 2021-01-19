@@ -65,7 +65,7 @@ To obtain the final dataset for training in TFRecord format the platform used is
    
 7. Finally, you will be given the option to either download the zip version of the code in the chosen export format (here the chosen format is TFRecord) or copy the link for the Jupyter notebook which is used in this implementation to load the training dataset for the model.
 
-    ![Step-7](dataset-preparation/d-7.JPG)
+    ![Step-7](dataset-preparation/d-7.png)
 
 
 ### Now the dataset is ready for implementation which is discussed [here](../implementation)
